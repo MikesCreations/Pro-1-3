@@ -41,7 +41,7 @@ namespace Pro_1_3
 
             lblOutput2.Text = "You are " + (82 - age)  + " years below the average life expectancy";
 
-            lblOutput3.Text = "You are " + Math.Round((2.72 - tall),2) + "metres smaller than the tallest person";
+            lblOutput3.Text = "You are " + Math.Round((2.72 - tall),2) + " metres smaller than the tallest person";
 
         }
     }

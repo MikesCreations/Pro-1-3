@@ -47,7 +47,7 @@ namespace Pro_1_3
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(130, 70);
+            this.lblName.Location = new System.Drawing.Point(118, 77);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(84, 13);
             this.lblName.TabIndex = 0;
@@ -81,9 +81,9 @@ namespace Pro_1_3
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(228, 33);
+            this.btnSubmit.Location = new System.Drawing.Point(197, 21);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(90, 23);
+            this.btnSubmit.Size = new System.Drawing.Size(107, 37);
             this.btnSubmit.TabIndex = 4;
             this.btnSubmit.Text = "Submit your info";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -91,7 +91,7 @@ namespace Pro_1_3
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(288, 70);
+            this.txtName.Location = new System.Drawing.Point(288, 77);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 20);
             this.txtName.TabIndex = 5;
@@ -141,7 +141,8 @@ namespace Pro_1_3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(581, 319);
             this.Controls.Add(this.lblAge2);
             this.Controls.Add(this.trkAge);
             this.Controls.Add(this.lblOutput3);
